@@ -9,7 +9,11 @@ docker run -p 3000:3000 -v ~/Desktop/react-project/react-sample:/react-ts-projec
 
 yarn start
 
+---
+docker start sweet_booth
+docker attach sweet_booth
 
+yarn start
 
 ---
 ### 参考にしたURL
